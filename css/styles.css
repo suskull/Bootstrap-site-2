@@ -1,0 +1,175 @@
+body{
+  font-family:'Montserrat';
+}
+h1{
+  font-family: 'Montserrat';
+  font-size:3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color:white;
+}
+h2{
+  font-family: 'Montserrat';
+  font-size:3rem;
+  font-weight:900;
+  padding: 0 7%;
+
+}
+
+h3{
+  font-family:'Montserrat'
+  font-size :1.5rem;
+
+}
+
+p{
+    text-align: center;
+    padding:5%;
+}
+
+.container-fluid{
+  padding:3% 15%;
+}
+
+
+
+/* Navigation Bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family:'Ubuntu';
+  font-size:2.5rem;
+  font-weight: 600;
+}
+
+.nav-item{
+  padding :0 18px;
+}
+
+.nav-link{
+  font-size:18px;
+  font-weight: 100px;
+}
+
+button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Icon */
+.icon-features{
+  color:#ef8172;
+  font-size:3rem;
+  margin-bottom:1rem;
+}
+.icon-features:hover{
+  color:#ff4c68;
+
+}
+
+/* Features */
+.textFeatures{
+  color:#8f8f8f;
+}
+
+.h3Features{}
+
+.features-box{}
+
+#title{
+  background-color :#ff4c68;
+}
+.rotated{
+    margin:0 15%;
+    transform:rotate(30deg);
+    position:absolute;
+    width:50%;
+  }
+
+#features{
+  padding:7% 15% 3%;
+  text-align: center;
+  background-color:#fff;
+  position:relative;
+}
+
+#testimonials{
+  background-color:#ef8172;
+  text-align: center;
+  color:#fff;
+
+}
+.carousel-item{
+    padding: 7% 15%
+}
+
+.testimonials-image{
+  border-radius:100%;
+  width: 120px;
+  margin: 20px;
+}
+
+#press{
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 30px;
+}
+
+/* Pricing */
+
+#pricing{
+  text-align:center;
+  padding: 7% 15% 2%;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* CTA */
+#cta{
+  background-color:#fff;
+  text-align: center;
+  padding:2% 15% 0;
+}
+.button-cta{
+  padding: 0 10%;
+  margin-top:10px;
+}
+
+/* Footed */
+#footer{
+  background-color:#d1cebd;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  color:#8f8f8f;
+  margin-bottom:0;
+}
+
+.a-footer{
+  padding:7% 1%;
+}
+.p-footer{
+  padding-top:7%;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+
+/* Reponsive */
+
+@media (max-width:992px){
+  .rotated{
+    position:static;
+    transform:rotate(0);
+  }
+  #title{
+    text-align:center;
+  }
+
+}
